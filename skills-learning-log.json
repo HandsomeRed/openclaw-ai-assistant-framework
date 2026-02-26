@@ -1101,5 +1101,17 @@
       "source": "awesome-openclaw-skills"
     },
     "details": "# moltcanvas\n\n## \u7c7b\u522b\n\ud83c\udfac \u89c6\u9891/\u56fe\u7247\n\n## \u63cf\u8ff0\nPost images, comment, appraise, and collect NFTs on MoltCanvas\n\n## \u6765\u6e90\n\u5b98\u65b9\u6280\u80fd\u5e93: https://github.com/VoltAgent/awesome-openclaw-skills\n\n## \u5b89\u88c5\u65b9\u5f0f\n```bash\nnpx clawhub@latest install moltcanvas\n```\n\n\u6216\u8005\u76f4\u63a5\u590d\u5236\u6280\u80fd\u6587\u4ef6\u5939\u5230:\n- Global: `~/.openclaw/skills/`\n- Workspace: `<project>/skills/`\n\n## \u5b98\u65b9\u94fe\u63a5\nhttps://github.com/openclaw/skills/tree/main/skills/vabblejames/moltcanvas/SKILL.md\n"
+  },
+  {
+    "timestamp": "2026-02-27T07:00:03.203268",
+    "hour": 7,
+    "category": "\u2699\ufe0f \u81ea\u52a8\u5316",
+    "skillLearned": {
+      "name": "vercel-deploy",
+      "url": "https://github.com/openclaw/skills/tree/main/skills/sharanga10/vercel-deploy-claimable/SKILL.md",
+      "description": "Deploy applications and websites to Vercel.",
+      "source": "awesome-openclaw-skills"
+    },
+    "details": "# vercel-deploy\n\n## \u7c7b\u522b\n\u2699\ufe0f \u81ea\u52a8\u5316\n\n## \u63cf\u8ff0\nDeploy applications and websites to Vercel.\n\n## \u6765\u6e90\n\u5b98\u65b9\u6280\u80fd\u5e93: https://github.com/VoltAgent/awesome-openclaw-skills\n\n## \u5b89\u88c5\u65b9\u5f0f\n```bash\nnpx clawhub@latest install vercel-deploy\n```\n\n\u6216\u8005\u76f4\u63a5\u590d\u5236\u6280\u80fd\u6587\u4ef6\u5939\u5230:\n- Global: `~/.openclaw/skills/`\n- Workspace: `<project>/skills/`\n\n## \u5b98\u65b9\u94fe\u63a5\nhttps://github.com/openclaw/skills/tree/main/skills/sharanga10/vercel-deploy-claimable/SKILL.md\n"
   }
 ]
