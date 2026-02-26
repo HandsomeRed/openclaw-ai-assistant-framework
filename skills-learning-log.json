@@ -809,5 +809,16 @@
       "source": "github"
     },
     "details": "\u52a0\u5bc6\u5de5\u5177\u96c6"
+  },
+  {
+    "timestamp": "2026-02-26T18:25:19.883063",
+    "hour": 18,
+    "category": "\u270d\ufe0f \u5185\u5bb9\u521b\u4f5c",
+    "skillLearned": {
+      "name": "`\uf8ff App Store`",
+      "url": "https://apps.apple.com/app/owncloud/id1359583808",
+      "description": "<a href='https://owncloud.com/wp-content/uploads/2019/05/ownCloud-iOS-app-store-parent-file-listing.png'>`Screenshot 1`</a>",
+      "source": "github"
+    }
   }
 ]
