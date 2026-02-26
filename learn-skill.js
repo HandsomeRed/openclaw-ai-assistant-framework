@@ -70,6 +70,15 @@ async function learnSkill() {
     const page = await browser.newPage();
     await page.setViewport({ width: 1280, height: 800 });
     
+    // 从文件读取Cookie
+    let authCookie = '';
+    try {
+      authCookie = fs.readFileSync('.skillsmp_cookie', 'utf8').trim();
+      console.log(`  → 已加载Cookie (${authCookie.length} 字符)`);
+    } catch (e) {
+      console.log(`  → 未找到Cookie文件，将使用未登录模式`);
+    }REF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TUR
+    
     // 确定当前小时要学习的类别
     let targetCategory;
     if (hour % 2 === 0) {
@@ -91,6 +100,14 @@ async function learnSkill() {
     // 获取已学习技能列表
     const learnedSkills = getLearnedSkills();
     console.log(`  → 已学习技能数: ${learnedSkills.size}`);
+    
+    // 设置Cookie到页面（如果存在）
+    if (authCookie) {
+      await page.setExtraHTTPHeaders({
+        'Cookie': authCookie
+      });
+      console.log(`  → 已设置登录Cookie`);
+    }
     
     // 使用搜索获取更多技能
     const searchKeywords = ['ai', 'video', 'image', 'automation', 'data', 'write', 'code', 'bot', 'python', 'ml', 'nlp', 'vision'];
