@@ -84,6 +84,18 @@
     "bird-twitter": {
       "version": "1.0.0",
       "installedAt": 1772180831376
+    },
+    "planning-with-files": {
+      "version": "1.2.0",
+      "installedAt": 1772181208083
+    },
+    "remotion": {
+      "version": "1.0.1",
+      "installedAt": 1772181342579
+    },
+    "mcp-skill": {
+      "version": "1.0.0",
+      "installedAt": 1772181504084
     }
   }
 }
